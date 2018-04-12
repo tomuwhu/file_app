@@ -2,14 +2,12 @@
 <meta charset="UTF-8">
 <title>File feltöltés és metés</title>
 <link rel="stylesheet" href="w3.css">
-<script src="angular.min.js">
-</script>
-<script src="ap07.js">
+<script src="angular.min.js"></script>
+<script src="index.js">
 </script>
 <body ng-app="a" ng-controller="c" class="w3-container w3-center w3-gray">
   <br>
-  <div class="w3-round-large w3-white" style="border:0 auto">
-  <br>
+  <div class="w3-round-large w3-white" style="border:0 auto"><br>
   <input type="file" fr="uf" multiple />
   <div ng-if="img"><img src="{{uf}}" /></div>
   <pre class="w3-left" ng-if="!img">{{uf}}</pre>
